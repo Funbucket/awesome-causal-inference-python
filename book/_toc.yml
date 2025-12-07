@@ -25,3 +25,5 @@ parts:
       - file: scm/frontdoor_criterion.ipynb
       - file: scm/causal_discovery.ipynb
     - file: prescriptive_analytics/overview.md
+      sections:
+      - file: prescriptive_analytics/heterogeneous_causal_learning_for_effectiveness_optimization.ipynb

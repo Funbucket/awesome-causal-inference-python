@@ -39,7 +39,7 @@ MSM은 관찰 연구에서 **시간에 따라 변하고 이전 치료에 의해 
 
 
 * 참고 문헌
-1. Li, F. (2026). STA 640 — Causal Inference: Chapter 9 – Sequential/Longitudinal Treatments [Lecture slides]. Duke University. https://www.themoonlight.io/paper/fad1f5b9-645c-4cd1-b0ff-68eaa3368020
+1. Li, F. (2026). STA 640 — Causal Inference: Chapter 9 – Sequential/Longitudinal Treatments [Lecture slides]. Duke University. 
 2. Schomaker, M., & Baumann, P. F. M. (2023). Doubly robust estimation of average treatment effects on the treated through marginal structural models. Observational Studies, 9(3). https://doi.org/10.1353/obs.2023.0025
 3. Robins, J. M., Hernán, M. A., & Brumback, B. (2000).Marginal Structural Models and Causal Inference in Epidemiology.Epidemiology, 11(5), 550–560.
 

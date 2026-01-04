@@ -26,4 +26,5 @@ parts:
       - file: scm/causal_discovery.ipynb
     - file: prescriptive_analytics/overview.md
       sections:
-      - file: prescriptive_analytics/heterogeneous_causal_learning_for_effectiveness_optimization.ipynb
+      - file: prescriptive_analytics/fractional_uplift.ipynb
+      - file: prescriptive_analytics/budget_constrained_optimization.ipynb

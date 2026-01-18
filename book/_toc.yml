@@ -27,3 +27,7 @@ parts:
       - file: scm/backdoor_criterion.ipynb
       - file: scm/frontdoor_criterion.ipynb
       - file: scm/causal_discovery.ipynb
+    - file: prescriptive_analytics/overview.md
+      sections:
+      - file: prescriptive_analytics/fractional_uplift.ipynb
+      - file: prescriptive_analytics/budget_constrained_optimization.ipynb

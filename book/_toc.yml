@@ -5,29 +5,32 @@ parts:
   - caption: Contents
     chapters:
     - file: prior_knowledge/overview.md
-    - file: ate/overview.md
-      sections:
-      - file: ate/ols.ipynb
-      - file: ate/propensity_score_and_dml.ipynb
-      - file: ate/did.ipynb
-      - file: ate/sc.ipynb
-      - file: ate/sdid.ipynb
-      - file: ate/iv.ipynb
-      - file: ate/rdd.ipynb
-    - file: cate_and_policy/overview.md
-      sections:
-      - file: cate_and_policy/parametric_cate.ipynb
-      - file: cate_and_policy/nonparametric_cate.ipynb
-      - file: cate_and_policy/policy_learning.ipynb
-      - file: cate_and_policy/iv.ipynb
-      - file: cate_and_policy/cate_with_nn.ipynb
-      - file: cate_and_policy/interpretability.ipynb
-    - file: scm/overview.md
-      sections:
-      - file: scm/backdoor_criterion.ipynb
-      - file: scm/frontdoor_criterion.ipynb
-      - file: scm/causal_discovery.ipynb
-    - file: prescriptive_analytics/overview.md
-      sections:
-      - file: prescriptive_analytics/fractional_uplift.ipynb
-      - file: prescriptive_analytics/budget_constrained_optimization.ipynb
+
+  - caption: Part 1
+    chapters:
+    - file: part1/ols.ipynb
+    - file: part1/ipw_psm.ipynb
+    - file: part1/did.ipynb
+    - file: part1/sc.ipynb
+    - file: part1/sdid.ipynb
+    - file: part1/iv.ipynb
+    - file: part1/iv_cate.ipynb
+    - file: part1/rdd.ipynb
+    - file: part1/T_4_Regression_Discontinuity_on_Progresa_Data.ipynb
+
+  - caption: Part 2
+    chapters:
+    - file: part2/dml.ipynb
+    - file: part2/meta_learner.ipynb
+    - file: part2/policy_learning.ipynb
+    - file: part2/cate_with_nn.ipynb
+    - file: part2/interpretability.ipynb
+    - file: part2/backdoor_criterion.ipynb
+    - file: part2/causal_discovery.ipynb
+    - file: part2/MSM.ipynb
+
+  - caption: Examples
+    chapters:
+    - file: examples/fractional_uplift.ipynb
+    - file: examples/budget_constrained_optimization.ipynb
+    - file: examples/frontdoor_criterion.ipynb

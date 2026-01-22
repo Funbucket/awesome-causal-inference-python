@@ -19,3 +19,15 @@ parts:
       - file: cate_and_policy/parametric_cate.ipynb
       - file: cate_and_policy/nonparametric_cate.ipynb
       - file: cate_and_policy/policy_learning.ipynb
+      - file: cate_and_policy/iv.ipynb
+      - file: cate_and_policy/cate_with_nn.ipynb
+      - file: cate_and_policy/interpretability.ipynb
+    - file: scm/overview.md
+      sections:
+      - file: scm/backdoor_criterion.ipynb
+      - file: scm/frontdoor_criterion.ipynb
+      - file: scm/causal_discovery.ipynb
+    - file: prescriptive_analytics/overview.md
+      sections:
+      - file: prescriptive_analytics/fractional_uplift.ipynb
+      - file: prescriptive_analytics/budget_constrained_optimization.ipynb
